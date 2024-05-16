@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#exercise_title{
+    margin: 5px 20px;
+    font-size: 20px;
+    color: rgb(255, 0, 30);
+}
+#button{
+    padding: 10px 20px;
+    margin: 20px 30px 5px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#button_2{
+    padding: 5px 10px;
+    margin: 5px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 16px;
+}
+#image{
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin: 20px 30px;
+    border-radius: 10px;
+}
+#input{
+    display: block;
+    margin:  20px 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#input_paragraph{
+    margin: 5px 30px;
+    background-color: thistle;
+    padding: 15px;
+    border-radius: 10px;
+}
+#amount_paragraph{
+    margin: 5px 30px;
+    background-color: rgb(128, 255, 89);
+    padding: 15px;
+    border-radius: 10px;
+}
+#user_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    grid-template-areas: 
+    "user_1 user_2 user_3 user_4";
+    gap: 60px;
+    padding: 30px;
+}
+.person{
+    background-color: rgb(205, 205, 205);
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#userImage{
+    width: 200px;
+    height: 200px;
+}
